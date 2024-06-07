@@ -11,6 +11,8 @@
 		379A74962C12FC440065255D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379A74952C12FC440065255D /* ContentView.swift */; };
 		379A74982C12FC450065255D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 379A74972C12FC450065255D /* Assets.xcassets */; };
 		379A749B2C12FC450065255D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 379A749A2C12FC450065255D /* Preview Assets.xcassets */; };
+		379A74A22C12FC650065255D /* ChatScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379A74A12C12FC650065255D /* ChatScreenView.swift */; };
+		379A74A42C12FC790065255D /*  ChatButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379A74A32C12FC790065255D /*  ChatButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		379A74952C12FC440065255D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		379A74972C12FC450065255D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		379A749A2C12FC450065255D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		379A74A12C12FC650065255D /* ChatScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatScreenView.swift; sourceTree = "<group>"; };
+		379A74A32C12FC790065255D /*  ChatButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = " ChatButton.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +57,8 @@
 			children = (
 				379A74932C12FC440065255D /* WBTECH_iOSApp.swift */,
 				379A74952C12FC440065255D /* ContentView.swift */,
+				379A74A12C12FC650065255D /* ChatScreenView.swift */,
+				379A74A32C12FC790065255D /*  ChatButton.swift */,
 				379A74972C12FC450065255D /* Assets.xcassets */,
 				379A74992C12FC450065255D /* Preview Content */,
 			);
@@ -137,6 +143,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				379A74A42C12FC790065255D /*  ChatButton.swift in Sources */,
+				379A74A22C12FC650065255D /* ChatScreenView.swift in Sources */,
 				379A74962C12FC440065255D /* ContentView.swift in Sources */,
 				379A74942C12FC440065255D /* WBTECH_iOSApp.swift in Sources */,
 			);
@@ -279,6 +287,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -307,6 +316,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
