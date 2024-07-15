@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3742B8B72C44BC7D000AF603 /* PhoneAuthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3742B8B62C44BC7D000AF603 /* PhoneAuthView.swift */; };
 		379A74942C12FC440065255D /* WBTECH_iOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379A74932C12FC440065255D /* WBTECH_iOSApp.swift */; };
 		379A74962C12FC440065255D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379A74952C12FC440065255D /* ContentView.swift */; };
 		379A74982C12FC450065255D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 379A74972C12FC450065255D /* Assets.xcassets */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3742B8B62C44BC7D000AF603 /* PhoneAuthView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneAuthView.swift; sourceTree = "<group>"; };
 		379A74902C12FC440065255D /* WBTECH_iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WBTECH_iOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		379A74932C12FC440065255D /* WBTECH_iOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WBTECH_iOSApp.swift; sourceTree = "<group>"; };
 		379A74952C12FC440065255D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -59,6 +61,7 @@
 				379A74952C12FC440065255D /* ContentView.swift */,
 				379A74A12C12FC650065255D /* ChatScreenView.swift */,
 				379A74A32C12FC790065255D /*  ChatButton.swift */,
+				3742B8B62C44BC7D000AF603 /* PhoneAuthView.swift */,
 				379A74972C12FC450065255D /* Assets.xcassets */,
 				379A74992C12FC450065255D /* Preview Content */,
 			);
@@ -147,6 +150,7 @@
 				379A74A22C12FC650065255D /* ChatScreenView.swift in Sources */,
 				379A74962C12FC440065255D /* ContentView.swift in Sources */,
 				379A74942C12FC440065255D /* WBTECH_iOSApp.swift in Sources */,
+				3742B8B72C44BC7D000AF603 /* PhoneAuthView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
