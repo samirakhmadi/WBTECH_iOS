@@ -49,7 +49,7 @@ struct ContentView: View {
             })
             .padding()
             .sheet(isPresented: $showingChatScreen) {
-                ChatScreenView()
+                PhoneAuthView()
             }
         }
         .padding()
@@ -61,5 +61,3 @@ struct ContentView_Previews: PreviewProvider {
         ContentView()
     }
 }
-
-

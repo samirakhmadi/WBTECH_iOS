@@ -8,23 +8,29 @@
 
 /* Begin PBXBuildFile section */
 		3742B8B72C44BC7D000AF603 /* PhoneAuthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3742B8B62C44BC7D000AF603 /* PhoneAuthView.swift */; };
+		3742B8BB2C44C26D000AF603 /* PhoneAuthData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3742B8BA2C44C26D000AF603 /* PhoneAuthData.swift */; };
+		377FBDAB2C4909E000FA444F /* Country.swift in Sources */ = {isa = PBXBuildFile; fileRef = 377FBDAA2C4909E000FA444F /* Country.swift */; };
 		379A74942C12FC440065255D /* WBTECH_iOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379A74932C12FC440065255D /* WBTECH_iOSApp.swift */; };
 		379A74962C12FC440065255D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379A74952C12FC440065255D /* ContentView.swift */; };
 		379A74982C12FC450065255D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 379A74972C12FC450065255D /* Assets.xcassets */; };
 		379A749B2C12FC450065255D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 379A749A2C12FC450065255D /* Preview Assets.xcassets */; };
-		379A74A22C12FC650065255D /* ChatScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379A74A12C12FC650065255D /* ChatScreenView.swift */; };
 		379A74A42C12FC790065255D /*  ChatButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379A74A32C12FC790065255D /*  ChatButton.swift */; };
+		37D1B7122C477E87005274CA /* CodeInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37D1B7112C477E87005274CA /* CodeInputView.swift */; };
+		37D1B7142C477ECC005274CA /* VerificationCodeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37D1B7132C477ECC005274CA /* VerificationCodeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		3742B8B62C44BC7D000AF603 /* PhoneAuthView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneAuthView.swift; sourceTree = "<group>"; };
+		3742B8BA2C44C26D000AF603 /* PhoneAuthData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneAuthData.swift; sourceTree = "<group>"; };
+		377FBDAA2C4909E000FA444F /* Country.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Country.swift; sourceTree = "<group>"; };
 		379A74902C12FC440065255D /* WBTECH_iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WBTECH_iOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		379A74932C12FC440065255D /* WBTECH_iOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WBTECH_iOSApp.swift; sourceTree = "<group>"; };
 		379A74952C12FC440065255D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		379A74972C12FC450065255D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		379A749A2C12FC450065255D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		379A74A12C12FC650065255D /* ChatScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatScreenView.swift; sourceTree = "<group>"; };
 		379A74A32C12FC790065255D /*  ChatButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = " ChatButton.swift"; sourceTree = "<group>"; };
+		37D1B7112C477E87005274CA /* CodeInputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeInputView.swift; sourceTree = "<group>"; };
+		37D1B7132C477ECC005274CA /* VerificationCodeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerificationCodeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,9 +65,12 @@
 			children = (
 				379A74932C12FC440065255D /* WBTECH_iOSApp.swift */,
 				379A74952C12FC440065255D /* ContentView.swift */,
-				379A74A12C12FC650065255D /* ChatScreenView.swift */,
 				379A74A32C12FC790065255D /*  ChatButton.swift */,
 				3742B8B62C44BC7D000AF603 /* PhoneAuthView.swift */,
+				3742B8BA2C44C26D000AF603 /* PhoneAuthData.swift */,
+				37D1B7112C477E87005274CA /* CodeInputView.swift */,
+				37D1B7132C477ECC005274CA /* VerificationCodeView.swift */,
+				377FBDAA2C4909E000FA444F /* Country.swift */,
 				379A74972C12FC450065255D /* Assets.xcassets */,
 				379A74992C12FC450065255D /* Preview Content */,
 			);
@@ -146,11 +155,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				37D1B7142C477ECC005274CA /* VerificationCodeView.swift in Sources */,
 				379A74A42C12FC790065255D /*  ChatButton.swift in Sources */,
-				379A74A22C12FC650065255D /* ChatScreenView.swift in Sources */,
+				37D1B7122C477E87005274CA /* CodeInputView.swift in Sources */,
 				379A74962C12FC440065255D /* ContentView.swift in Sources */,
+				377FBDAB2C4909E000FA444F /* Country.swift in Sources */,
 				379A74942C12FC440065255D /* WBTECH_iOSApp.swift in Sources */,
 				3742B8B72C44BC7D000AF603 /* PhoneAuthView.swift in Sources */,
+				3742B8BB2C44C26D000AF603 /* PhoneAuthData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -291,7 +303,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -320,7 +332,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
